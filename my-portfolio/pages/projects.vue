@@ -33,7 +33,6 @@
         <h2>{{ project.title }}</h2>
         <p><strong>Module:</strong> {{ project.module }}</p>
         <p>{{ project.description }}</p>
-        <a :href="project.github" target="_blank">View on GitHub</a>
         <hr />
       </div>
     </main>
