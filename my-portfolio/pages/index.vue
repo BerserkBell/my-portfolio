@@ -43,7 +43,7 @@
     const loading = ref(true)
     const error = ref(false)
 
-    const response = await fetch('https://corsproxy.io/?https://xkcd.com/info.0.json')
+    const response = await fetch('https://api.allorigins.win/raw?url=https://xkcd.com/info.0.json')
     .then(res => res.json())
     .catch(() => null)
 
