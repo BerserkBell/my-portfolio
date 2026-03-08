@@ -5,25 +5,22 @@
 -->
   <script setup>
     const projects = [
-        {
-            title: 'Online Store',
-            module: 'WEB 201',
-            description: 'A simple e-commerce site with a shopping cart built using Vue and Node.js.',
-            github: 'https://github.com/yourusername/project-one'
-        },
-        {
-            title: 'Grade Predictor',
-            module: 'COS 301',
-            description: 'A Python script that predicts final grades based on assignment scores.',
-            github: 'https://github.com/yourusername/project-two'
-        },
-        {
-            title: 'Task Manager CLI',
-            module: 'COS 110',
-            description: 'A command-line task manager written in C++ that saves tasks to a file.',
-            github: 'https://github.com/yourusername/project-three'
-        }
-        ]
+      {
+        title: 'Student Registration MVC',
+        module: 'INF 272',
+        description: 'A web application built in Visual Studio 2022 using the MVC . It allows students to register, view, and manage their information through a structured interface.'
+      },
+      {
+        title: 'Issue Ticket Summary MVC',
+        module: 'INF 272',
+        description: 'An MVC web application where users can log complaints or issues and track their status. Built in Visual Studio 2022 with a focus on clean data management and user-friendly forms.'
+      },
+      {
+        title: 'Personal Portfolio Website',
+        module: 'IMY 210',
+        description: 'A personal portfolio site built with Nuxt.js and deployed on Netlify. Features two external API integrations (XKCD comics and a joke generator) and a contact form using Netlify Forms.'
+      }
+    ]
     </script>
 <template>
   <div>
